@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+<meta charset='UTF-8'>
+<title>Relatório Crítico Mega-Sena</title>
+<style>
+body { font-family: Arial; background: #111; color: #eee; padding: 20px; }
+h1, h2 { color: #bb86fc; }
+code { background: #222; padding: 2px 4px; border-radius: 4px; }
+pre { background: #222; padding: 10px; border-left: 4px solid #bb86fc; overflow-x: auto; }
+section { margin-bottom: 40px; }
+img { max-width: 100%; border: 1px solid #444; margin-top: 10px; }
+</style>
+</head>
+<body>
+<h1>Relatório Crítico: Dois Sorteios, Dois Padrões?</h1>
+<p><strong>Autor:</strong> Silvânio<br> <strong>Data de Geração:</strong> 24/07/2025<br> <strong>Ferramentas:</strong> Python, Pandas, NumPy, Matplotlib</p>
+
+<section>
+<h2>🌍 Objetivo</h2>
+<p>Analisar dois sorteios recentes da Mega-Sena que apresentaram padrões matemáticos curiosamente estruturados, apesar do suposto sorteio aleatório de 60 bolinhas. A ideia é clara: <em>se a sorte tem padrão, então ela não é tão aleatória assim.</em></p>
+</section>
+
+<section>
+<h2>🔮 Análise dos Sorteios</h2>
+
+    <h3>Concurso 2888 – 15/07/2025</h3>
+    <ul>
+        <li>Dezenas: <code>[3, 9, 15, 27, 39, 59]</code></li>
+        <li>Diferenças: <code>[6, 6, 12, 12, 20]</code></li>
+        <li>Pares com soma +10: <code>Nenhum</code></li>
+        <li>Observação: <strong>Padrão exato de diferenças: [6, 6, 12, 12, 20]</strong></li>
+    </ul>
+    <img src="grafico_2888.png" alt="Gráfico Concurso 2888">
+    
+    <h3>Concurso 2892 – 24/07/2025</h3>
+    <ul>
+        <li>Dezenas: <code>[14, 24, 36, 44, 46, 54]</code></li>
+        <li>Diferenças: <code>[10, 12, 8, 2, 8]</code></li>
+        <li>Pares com soma +10: <code>[(14, 24), (36, 46), (44, 54)]</code></li>
+        <li>Observação: <strong>Padrão de somas internas +10 entre pares</strong></li>
+    </ul>
+    <img src="grafico_2892.png" alt="Gráfico Concurso 2892">
+    
+</section>
+
+<section>
+<h2>🚨 Conclusão Crítica</h2>
+<p>Estamos diante de dois sorteios em menos de 10 dias com padrões matemáticos <strong>raros e simétricos</strong>. Um com apenas ímpares, outro com apenas pares. Um com diferenças perfeitas, outro com trios de somas internas. Em ambos, o prêmio era altíssimo. Coincidência?</p>
+<p><em>Num país onde tudo tem um preço, até a aleatoriedade pode ser negociada.</em> Quem quiser continuar apostando sem questionar, boa sorte. Mas quem tem senso crítico, já entendeu que até a sorte pode ser previsível... ou dirigida.</p>
+</section>
+
+<footer>
+<p style='text-align:center; color: #777;'>Silvânio • Modelagem Matemática & Inteligência Crítica</p>
+</footer>
+</body>
+</html>
